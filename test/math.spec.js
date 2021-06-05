@@ -52,7 +52,7 @@ describe("Math class", function () {
 
     const math = new Math();
 
-    math.printSum(req, res, 5, 5);
+    math.printSum(req, res, 3, 5);
 
     expect(res.load.args[0][0]).to.equal("index");
   });
